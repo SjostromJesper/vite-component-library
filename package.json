@@ -3,7 +3,8 @@
   "private": false,
   "version": "0.0.0",
   "scripts": {
-    "bundle:index": "node -v",
+    "bundle:index": "npm run componentHandler.js",
+    "bundle:yarn": "yarn bundle:index",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
